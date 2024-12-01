@@ -53,8 +53,7 @@ Brand[0] = 'Ford';
 
 //Problem 9: Math Related Problems
 //1. Use the correct Math method to create a random number.
-let randomNum = Math.random() * 10;
-let roundedRandomNum = Math.round(randomNum);
+let randomNum = Math.random();
 
 //2. Use the correct Math method to return the largest number of 10 and 20.
 let largestNum = Math.max(10, 20);
