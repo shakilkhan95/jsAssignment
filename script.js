@@ -9,7 +9,7 @@ let firstName = 'John', lastName = 'Doe',  age = 35;
 //Problem 3: Use the correct assignment operator that will result in x being 50 (same as x = x * y).
 let x = 10;
 let y = 5;
-x = x * y;
+x = x * y; // the value of x will be 50
 
 {//Problem 4: Use comments to describe the correct data type of the following variables:
 let length = 16; //Data type is: number
@@ -164,8 +164,7 @@ console.log(mergeArrays(["a", "b"], ["c", "d"]));
 
 //Problem 13: Write a function to get the last element of an array. The function should take a single argument, which is the array.
 function getLastElement(arr) {
-    let i = arr.length - 1;
-    return arr[i];
+    return arr.at(-1);
   }
 console.log(getLastElement([1, 2, 3]));
 console.log(getLastElement(["a", "b", "c"]));
